@@ -1,0 +1,38 @@
+
+<!-- saved from url=(0079)file:///home/webdevcal/repos/odin-recipes/images/index_files/ig-membership.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body>
+<script>
+    if (navigator.joinAdInterestGroup) {
+        const addIgScript = document.createElement('script');
+        let src = null;
+        if (navigator.runAdAuction) {
+            if (window.FencedFrameConfig || 'src' in document.createElement('fencedframe')) {
+                src = 'https://us.creativecdn.com/ig-membership?ntk=EGuyJHeqvxajeFGao4ZJVtzU9GgfGF7P47Bg5lkuTmCig_BePdXI3VBWXeSL08WC6ETE_XOzFEAh-fPcQINEX5KiPHOwwYtriBSIqXv9xKI';
+            } else {
+                src = 'https://us.creativecdn.com/ig-membership?ntk=EGuyJHeqvxajeFGao4ZJVtzU9GgfGF7P47Bg5lkuTmCig_BePdXI3VBWXeSL08WC6ETE_XOzFEAh-fPcQINEXxCcHUkQ3UWqtAYGxlV8a60';
+            }
+        } else {
+            if (window.FencedFrameConfig || 'src' in document.createElement('fencedframe')) {
+                src = 'https://us.creativecdn.com/ig-membership?ntk=EGuyJHeqvxajeFGao4ZJVtzU9GgfGF7P47Bg5lkuTmCig_BePdXI3VBWXeSL08WC6ETE_XOzFEAh-fPcQINEX5vtbOfEy4pZnkon2mrdyTY';
+            } else {
+                src = 'https://us.creativecdn.com/ig-membership?ntk=EGuyJHeqvxajeFGao4ZJVtzU9GgfGF7P47Bg5lkuTmCig_BePdXI3VBWXeSL08WC6ETE_XOzFEAh-fPcQINEX4CtVMvsJ1ta9CFQwBEghkY';
+            }
+        }
+
+        if ('cookieDeprecationLabel' in navigator) {
+            navigator.cookieDeprecationLabel.getValue().then((label) => {
+                if (label) {
+                    src += "&lbl=" + label;
+                }
+
+                addIgScript.setAttribute('src', src);
+                document.body.appendChild(addIgScript);
+            });
+        } else {
+            addIgScript.setAttribute('src', src);
+            document.body.appendChild(addIgScript);
+        }
+    }
+</script><script src="./ig-membership"></script><script src="file:///home/webdevcal/repos/odin-recipes/images/index_files/ig-membership"></script>
+
+</body></html>
