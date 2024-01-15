@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(219, 37, 107);
+    text-align: center;
+}
+image1 {
+    width: 900px;
+    height: 580px;
+}
+/* body {
+    background-image: url('images/4465962.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  } */
+img {
+    height: 320px;
+    width: 239px;
+}
+a {
+    float: left;
+}
+p {
+    text-align: left;
+    margin: 0px 65px;
+}
+
+ul {
+    text-align: left;
+}
+
+ol {
+    text-align: left;
+    margin: 0px 65px;
+}
