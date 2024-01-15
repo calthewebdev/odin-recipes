@@ -4,13 +4,21 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+img {
+    width: 360px;
+    height: 220px;
+    display: block;
+    margin: 66px;
+}
 
-a {
+a, div {
     
     color: beige;
     text-size-adjust: 59px;
     vertical-align: middle;
-    width: 358px;
+    margin: 52px;
+    text-decoration: none;
+    font-size: large;
 }
 p {
     text-align: left;
