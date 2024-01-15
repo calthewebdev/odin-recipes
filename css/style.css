@@ -1,33 +1,32 @@
 body {
-    background-color: rgb(219, 37, 107);
     text-align: center;
-}
-image1 {
-    width: 900px;
-    height: 580px;
-}
-/* body {
-    background-image: url('images/4465962.jpg');
+    background-image: url('123.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-  } */
-img {
-    height: 320px;
-    width: 239px;
 }
+
 a {
-    float: left;
+    
+    color: beige;
+    text-size-adjust: 59px;
+    vertical-align: middle;
+    width: 358px;
 }
 p {
     text-align: left;
     margin: 0px 65px;
 }
+h1, h2{
+    color: antiquewhite;
+}
 
 ul {
     text-align: left;
+    color: antiquewhite;
 }
 
 ol {
     text-align: left;
     margin: 0px 65px;
+    color: antiquewhite;
 }
