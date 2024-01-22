@@ -3,6 +3,7 @@ body {
     background-image: url('123.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    color: antiquewhite;
 }
 img {
     width: 360px;
