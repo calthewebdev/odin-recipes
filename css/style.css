@@ -68,3 +68,116 @@ ol {
     margin: 0px 65px;
     color: antiquewhite;
 }
+
+.survey {
+    text-align: center;
+}
+.p1 {
+    font-size: large;
+    text-align: center;
+    height: 70px;
+}
+
+.home-button {
+    color: antiquewhite;
+    height: 35px;
+    font-weight: 900;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 77px;
+    /* position: absolute; */
+    vertical-align: top;
+    float: left;
+}
+
+
+.home-button:hover {
+    background-color: rgb(102, 73, 36);
+    color: antiquewhite;
+    /* padding: 15px; */
+}
+/* .surveyh1 {
+    font-size: xx-large;
+} */
+input {
+    display: flex;
+
+}
+
+.input {
+    width: 390px;
+    height: 30px;
+    
+}
+label {
+    font-size: x-large;
+    height: 20px;
+    display: inline-flex; 
+    float: left;
+}
+
+select {
+    height: 30px;
+    width: 250px;
+}
+
+input[type="submit"] {
+    width: 300px;
+    height: 50px;
+    padding: 10px 20px 10px 125px;
+    background-color: rgb(93, 172, 103);
+    font-size: large;
+    font-weight: bold;
+    
+}
+
+input[type="text"] {
+    margin: 3px 0px 15px 0px;
+    
+}
+input[type="email"] {
+    margin: 3px 0px 15px 0px;
+}
+input[type="number"] {
+    margin: 3px 0px 15px 0px;
+}
+
+.p2 {
+    margin: 15px 0px 3px 0px;
+}
+
+/* p {
+    margin: 15px 0px 35px 0px;
+} */
+
+.p3 {
+    margin: 15px 0px 3px 0px;
+    border: 40px;
+}
+
+.p4 {
+    margin: 15px 0px 3px 0px;
+    height: 30px;
+}
+
+textarea {
+    width: 350px;
+    height: 150px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+
+  }
+
+  .radio {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+.checkbox {
+    height: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
