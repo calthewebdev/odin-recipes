@@ -1,9 +1,10 @@
 body {
     text-align: center;
-    background-image: url('123.jpg');
+    /* background-image: url('123.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
     color: antiquewhite;
+    background-color: brown;
 }
 img {
     width: 360px;
@@ -181,3 +182,15 @@ input[type="radio"] {
     align-items: center;
     margin-bottom: 10px;
 }
+
+.social-media-icons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-media-icons img {
+    
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+  }
