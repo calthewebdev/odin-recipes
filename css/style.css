@@ -195,9 +195,16 @@ input[type="radio"] {
 
   /* Projects */
   h1 {
-    padding: 250px 190px;
+    padding: 29px 190px;
   }
   .projects {
     padding: 85px 190px;
     text-align: center;
   }
+  .navigate {
+    padding: 50px 190px;
+    font-size: xx-large;
+    font: bolder;
+  }
+  
+  /* Contact */
