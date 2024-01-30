@@ -7,6 +7,10 @@ body {
     color: antiquewhite;
     background-color: brown;
 }
+/* .logo {
+    height: 15px;
+    width: 5px;
+} */
 img {
     width: 360px;
     height: 220px;
@@ -72,7 +76,6 @@ ol {
     margin: 0px 65px;
     color: antiquewhite;
 }
-
 /* Survey */
 
 .survey {
