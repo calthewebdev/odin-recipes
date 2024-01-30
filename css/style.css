@@ -1,3 +1,4 @@
+/* Main */
 body {
     text-align: center;
     /* background-image: url('123.jpg'); */
@@ -70,6 +71,8 @@ ol {
     color: antiquewhite;
 }
 
+/* Survey */
+
 .survey {
     text-align: center;
 }
@@ -96,9 +99,7 @@ ol {
     color: antiquewhite;
     /* padding: 15px; */
 }
-/* .surveyh1 {
-    font-size: xx-large;
-} */
+
 input {
     display: flex;
 
@@ -146,10 +147,6 @@ input[type="number"] {
     margin: 15px 0px 3px 0px;
 }
 
-/* p {
-    margin: 15px 0px 35px 0px;
-} */
-
 .p3 {
     margin: 15px 0px 3px 0px;
     border: 40px;
@@ -182,6 +179,7 @@ input[type="radio"] {
     align-items: center;
     margin-bottom: 10px;
 }
+/* Icons */
 
 .social-media-icons {
     display: flex;
@@ -193,4 +191,13 @@ input[type="radio"] {
     width: 50px;
     height: 50px;
     margin: 10px;
+  }
+
+  /* Projects */
+  h1 {
+    padding: 250px 190px;
+  }
+  .projects {
+    padding: 85px 190px;
+    text-align: center;
   }
