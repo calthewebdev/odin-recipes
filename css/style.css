@@ -7,10 +7,16 @@ body {
     color: antiquewhite;
     background-color: brown;
 }
-/* .logo {
-    height: 15px;
-    width: 5px;
-} */
+.activate img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 85px;
+    height: auto;
+}
+.activate:hover {
+    pointer-events: none;
+} 
 img {
     width: 360px;
     height: 220px;
