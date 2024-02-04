@@ -5,7 +5,16 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     color: antiquewhite;
-    background-color: brown;
+    /* background-color: brown; */
+}
+.bg-image {
+    background-image: url('banner/background.jpg');
+    width: 100%;
+    background-repeat: repeat;
+    background-size: cover;
+    margin: 100;
+    padding: 100;
+    
 }
 /* .activate img {
     position: absolute;
@@ -17,15 +26,6 @@ body {
 .activate:hover {
     pointer-events: none;
 } */
-.bg-image {
-    background-image: url('images/bg.png');
-    width: 100%;
-    background-repeat: repeat;
-    background-size: cover;
-    margin: 0;
-    padding: 0;
-    
-  }
 #banner {
     border: 0px solid transparent;
     border-image: url('images/banner.png');
@@ -35,12 +35,12 @@ body {
     object-fit: fill;
 
 } 
-/* img {
+img {
     width: 360px;
     height: 220px;
     display: block;
     margin: 66px;
-} */
+}
 
 a, div {
     
