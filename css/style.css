@@ -1,12 +1,12 @@
 /* Main */
 body {
     text-align: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: antiquewhite;
-    /* background-color: brown; */
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    color: rgb(223, 59, 18);
+    background-color: rgba(86, 226, 43, 0.205);
 }
-.bg-image {
+/* .bg-image {
     background-image: url("images/bg.png");
     width: 100%;
     background-repeat: repeat;
@@ -14,7 +14,7 @@ body {
     margin: 100;
     padding: 100;
     
-}
+} */
 /* .activate img {
     position: absolute;
     top: 0;
@@ -32,7 +32,6 @@ body {
     margin: 0px;
     width: 100%;
     object-fit: fill;
-
 } 
 img {
     width: 360px;
@@ -43,7 +42,7 @@ img {
 
 a, div {
     
-    color: beige;
+    color: rgb(216, 79, 16);
     text-size-adjust: 59px;
     vertical-align: middle;
     margin: 52px;
@@ -56,7 +55,7 @@ p {
     margin: 0px 65px;
 }
 header {
-    color: antiquewhite;
+    color: rgb(187, 54, 54);
     height: 35px;
     font-weight: 900;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -122,7 +121,7 @@ ol {
 }
 
 .home-button {
-    color: antiquewhite;
+    color: rgba(196, 6, 6, 0.61);
     height: 35px;
     font-weight: 900;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -134,9 +133,15 @@ ol {
 
 
 .home-button:hover {
-    background-color: rgb(102, 73, 36);
+    background-color: rgb(126, 33, 16);
     color: antiquewhite;
-    /* padding: 15px; */
+    padding: 15px; 
+    box-shadow: 0 0 5px #d1d1ab;
+    text-shadow: 0 0 5px #1a190b;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+    letter-spacing: 4px;
 }
 
 input {
